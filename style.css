@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    background:#0f172a;
+    color:white;
+    font-family:Arial,sans-serif;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    text-align:center;
+}
+
+h1{
+    font-size:60px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    font-size:22px;
+    color:#cbd5e1;
+    margin-bottom:40px;
+}
+
+button{
+    background:#38bdf8;
+    color:white;
+    border:none;
+    padding:18px 40px;
+    border-radius:12px;
+    font-size:20px;
+    cursor:pointer;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
